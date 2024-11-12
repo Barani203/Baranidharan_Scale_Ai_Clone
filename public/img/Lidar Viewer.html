@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://lidar-now.scale.com/scene?title=Scene%20%231%22 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name="theme-color" content="#000000"><link rel="shortcut icon" href="https://lidar-now.scale.com/favicon.ico"><link href="./Lidar Viewer_files/css" rel="stylesheet"><link rel="stylesheet" href="./Lidar Viewer_files/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"><title>Lidar Viewer</title><link href="./Lidar Viewer_files/main.3d5f0b5ca1f1be08cb2c.css" rel="stylesheet"></head><body data-new-gr-c-s-check-loaded="14.1207.0" data-gr-ext-installed=""><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"><div class="router-root"><div class="main-view" tabindex="0" style="box-sizing: border-box; min-width: 0px; min-height: 0px; display: flex; flex-flow: column; flex: 1 0 auto; position: relative; touch-action: none;"><div class="action"><div class="action-container"><svg width="30" height="30"><g fill="none"><path d="M10.37 9.274a.822.822 0 0 0-1.044 1.046l5.759 16.6c.253.759 1.329.854 1.708.125l1.931-3.833 6.52 6.526a.935.935 0 0 0 1.298 0l3.197-3.2a.938.938 0 0 0 0-1.3l-6.52-6.526 3.83-1.933a.93.93 0 0 0-.126-1.71L10.37 9.274z" fill="#fff"></path><g fill="#DD79DC"><path d="M16.415 9.56a6.025 6.025 0 0 0-1.708-3.359 6.05 6.05 0 0 0-8.577 0 6.067 6.067 0 0 0 0 8.586 6.08 6.08 0 0 0 3.544 1.743l-.665-1.901c-.6-.19-1.202-.57-1.677-1.046a4.364 4.364 0 0 1 0-6.177 4.352 4.352 0 0 1 6.17 0c.443.443.76.95.982 1.488l1.931.666z"></path><path d="M11.226 20.933l-.57-1.68a8.605 8.605 0 0 1-6.392-2.566C.846 13.265.846 7.69 4.264 4.269c3.418-3.422 8.987-3.422 12.405 0a8.834 8.834 0 0 1 2.564 6.24l1.677.601c.19-2.883-.854-5.828-3.038-8.045-4.082-4.087-10.728-4.087-14.81 0-4.082 4.086-4.082 10.738 0 14.826 2.214 2.25 5.22 3.263 8.164 3.042z"></path></g></g></svg><p class="action-text">Click this area to start using the tool</p></div><style>
+        .action {
+          align-items: center;
+          animation: displayOpacity 1s;
+          background: rgba(0,0,0,0.4);
+          bottom: 0;
+          cursor: pointer;
+          display: none;
+          justify-content: center;
+          left: 0;
+          position: absolute;
+          right: 0;
+          top: 0;
+          z-index: 999;
+        }
+
+        .action.show {
+          display: flex;
+        }
+
+        .action-container {
+          align-items: center;
+          background: rgba(0,0,0,0.8);
+          border-radius: 100px;
+          color: white;
+          display: flex;
+          padding: 18px 32px;
+        }
+
+        .action-text {
+          font-size: 22px;
+          margin: 0 0 0 22px;
+        }
+      </style></div><div class="main-container" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><div style="box-sizing: border-box; min-width: 0px; min-height: 0px; display: flex; flex-flow: column; flex: 1 1 auto; position: relative;"><div><div class="scene-3d-wrapper" style="position: absolute; top: 0px; right: 0px; width: 100%; height: 100%; pointer-events: none;"><div style="width: 100%; height: 100%; position: absolute; inset: 0px;"><canvas width="1920" height="827" style="display: block; position: absolute; width: 1280px; height: 551.333px;"></canvas></div></div><style>
+          .scene-2d-wrapper {
+            &:not(touch) {
+              opacity: 0;
+              transition: opacity 250ms ease-in-out;
+            }
+          }
+
+          .scene-2d-wrapper.active, .scene-2d-wrapper:hover  {
+            opacity: 1;
+          }
+        </style></div><div class="copied-url"><svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40" style="vertical-align: middle;"><g><path d="m34 27.1q0-0.8-0.6-1.5l-4.7-4.6q-0.6-0.6-1.5-0.6-0.9 0-1.6 0.7 0.1 0 0.4 0.4t0.5 0.5 0.3 0.4 0.3 0.6 0.1 0.6q0 0.9-0.6 1.5t-1.5 0.6q-0.4 0-0.6-0.1t-0.6-0.3-0.4-0.3-0.5-0.5-0.4-0.4q-0.8 0.7-0.8 1.6 0 0.9 0.7 1.6l4.6 4.6q0.6 0.6 1.5 0.6 0.9 0 1.5-0.6l3.3-3.3q0.6-0.6 0.6-1.5z m-15.7-15.7q0-0.9-0.6-1.5l-4.6-4.6q-0.6-0.7-1.5-0.7-0.9 0-1.6 0.6l-3.2 3.3q-0.7 0.6-0.7 1.5 0 0.9 0.7 1.5l4.6 4.7q0.6 0.6 1.5 0.6 1 0 1.6-0.7 0-0.1-0.4-0.4t-0.5-0.5-0.3-0.4-0.3-0.6-0.1-0.6q0-0.9 0.7-1.5t1.5-0.7q0.3 0 0.6 0.1t0.6 0.3 0.4 0.3 0.5 0.5 0.4 0.4q0.7-0.7 0.7-1.6z m20 15.7q0 2.7-1.9 4.6l-3.3 3.2q-1.8 1.9-4.5 1.9-2.7 0-4.6-1.9l-4.6-4.6q-1.8-1.9-1.8-4.6 0-2.7 1.9-4.6l-1.9-2q-1.9 2-4.7 2-2.7 0-4.5-1.9l-4.7-4.6q-1.8-1.9-1.8-4.6t1.9-4.5l3.2-3.3q1.9-1.8 4.6-1.8 2.7 0 4.5 1.9l4.6 4.6q1.9 1.8 1.9 4.5 0 2.8-2 4.7l2 1.9q1.9-1.9 4.6-1.9 2.7 0 4.6 1.8l4.6 4.7q1.9 1.9 1.9 4.5z"></path></g></svg></div><div class="react-contextmenu-wrapper"></div><nav role="menu" tabindex="-1" class="react-contextmenu" style="position: fixed; opacity: 0; pointer-events: none;"><div class="react-contextmenu-item" role="menuitem" tabindex="-1" aria-disabled="false">Copy URL</div><div class="react-contextmenu-item" role="menuitem" tabindex="-1" aria-disabled="false">Copy URL at current position and frame</div><div class="react-contextmenu-item" role="menuitem" tabindex="-1" aria-disabled="false">Copy Embed Code</div><div class="react-contextmenu-item" role="menuitem" tabindex="-1" aria-disabled="false">Copy Embed Code at current position and frame</div></nav><style>
+          .react-contextmenu-wrapper {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            z-index: -1;
+          }
+
+          .react-contextmenu-item {
+            padding: 8px;
+            font-size: 12px;
+            margin-left: 10px;
+            color: white;
+            background-color: rgba(32, 32, 32, 0.7);
+            cursor: pointer;
+            line-height: 1.6;
+            width: 270px;
+          }
+
+          .react-contextmenu-item:hover {
+            background-color: rgba(96, 96, 96, 0.7);
+          }
+
+          .react-contextmenu-item:focus {
+            outline: none;
+          }
+          .copied-url {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            background-color: rgba(32, 32, 32, 0.5);
+            border-radius: 100%;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 800%;
+            transition: opacity 1s ease-in-out;
+            opacity: 0;
+          }
+          .copied-url.showing {
+            opacity: 1;
+            transition: opacity 0.1s ease-in-out;
+          }
+        </style></div></div><div class="shade active top"><style>
+        .shade {
+          width: 100%;
+          height: 65px;
+          position: absolute;
+          left: 0;
+          opacity: 0;
+          transition: opacity 250ms ease-in-out;
+        }
+
+        .shade.top {
+          top: 0;
+          background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0));
+        }
+
+        .shade.bottom {
+          bottom: 0;
+          background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0));
+        }
+
+        .shade.active {
+          opacity: 0.9;
+        }
+      </style></div><div class="shade active bottom"><style>
+        .shade {
+          width: 100%;
+          height: 65px;
+          position: absolute;
+          left: 0;
+          opacity: 0;
+          transition: opacity 250ms ease-in-out;
+        }
+
+        .shade.top {
+          top: 0;
+          background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0));
+        }
+
+        .shade.bottom {
+          bottom: 0;
+          background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0));
+        }
+
+        .shade.active {
+          opacity: 0.9;
+        }
+      </style></div><div class="bottom-controls" style="box-sizing: border-box; min-width: 0px; min-height: 0px; display: flex; flex-flow: row; flex: 0 1 auto;"><div class="frame-selector-wrapper active"><div class="frame-selector-current">1/30</div><div class="frame-selector-list"><div class="frame-selector-frames"><div data-tip="1" data-for="frame-selector" class="frame default selected"></div><div data-tip="2" data-for="frame-selector" class="frame default"></div><div data-tip="3" data-for="frame-selector" class="frame default"></div><div data-tip="4" data-for="frame-selector" class="frame default"></div><div data-tip="5" data-for="frame-selector" class="frame default"></div><div data-tip="6" data-for="frame-selector" class="frame default"></div><div data-tip="7" data-for="frame-selector" class="frame default"></div><div data-tip="8" data-for="frame-selector" class="frame default"></div><div data-tip="9" data-for="frame-selector" class="frame default"></div><div data-tip="10" data-for="frame-selector" class="frame default"></div><div data-tip="11" data-for="frame-selector" class="frame default"></div><div data-tip="12" data-for="frame-selector" class="frame default"></div><div data-tip="13" data-for="frame-selector" class="frame default"></div><div data-tip="14" data-for="frame-selector" class="frame default"></div><div data-tip="15" data-for="frame-selector" class="frame default"></div><div data-tip="16" data-for="frame-selector" class="frame default"></div><div data-tip="17" data-for="frame-selector" class="frame default"></div><div data-tip="18" data-for="frame-selector" class="frame default"></div><div data-tip="19" data-for="frame-selector" class="frame default"></div><div data-tip="20" data-for="frame-selector" class="frame default"></div><div data-tip="21" data-for="frame-selector" class="frame default"></div><div data-tip="22" data-for="frame-selector" class="frame default"></div><div data-tip="23" data-for="frame-selector" class="frame default"></div><div data-tip="24" data-for="frame-selector" class="frame default"></div><div data-tip="25" data-for="frame-selector" class="frame default"></div><div data-tip="26" data-for="frame-selector" class="frame default"></div><div data-tip="27" data-for="frame-selector" class="frame default"></div><div data-tip="28" data-for="frame-selector" class="frame default"></div><div data-tip="29" data-for="frame-selector" class="frame default"></div><div data-tip="30" data-for="frame-selector" class="frame default"></div></div></div><style>
+          .frame-selector-wrapper {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+            opacity: 0;
+            transition: opacity 250ms ease-in-out;
+            user-select: none;
+          }
+
+          .frame-selector-wrapper.hide {
+            opacity: 0 !important;
+            pointer-events: none;
+          }
+
+          .frame-selector-wrapper.active, .frame-selector-wrapper.touch, .frame-selector-wrapper:hover {
+            opacity: 1;
+          }
+
+          .frame-selector.touch .frame-selector-list {
+            margin: 0 0 0 20px;
+          }
+
+          .frame-selector-current {
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 16px;
+            height: 16px;
+            width: 44px;
+            flex-shrink: 0;
+            user-select: none;
+          }
+
+          .frame-selector-list {
+            height: 10px;
+            width: 100%;
+            margin: 0 20px;
+            display: flex;
+            align-items: stretch;
+            justify-content: stretch;
+          }
+
+          .frame-selector-frames {
+            align-self: stretch;
+            flex-grow: 1;
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            white-space: nowrap;
+            justify-content: stretch;
+          }
+
+          .frame-selector-frames.hide {
+            opacity: 0 !important;
+            pointer-events: none;
+          }
+
+          .frame {
+            flex-grow: 1;
+          }
+
+          .frame {
+            background-color: rgba(255, 255, 255, 1);
+            cursor: pointer;
+            transition: all 250ms ease-out;
+          }
+
+          .frame.loading {
+            background-color: rgba(255, 255, 255, .7);
+          }
+
+          .frame.default:hover, .frame.default.selected {
+            background-color: #7ED321;
+          }
+
+          .frame.default:hover {
+            background: #ccc;
+          }
+
+          .frame.selected {
+            cursor: grab;
+          }
+
+          .frame.dragging {
+            cursor: grabbing;
+          }
+
+        </style></div><div class="bottom-actions" style="box-sizing: border-box; min-width: 0px; min-height: 0px; display: flex; flex-flow: row; flex: 0 1 auto;"><div class="bottom-icon active" title="Toggle Tips"><svg viewBox="0 0 20 20" fill="white"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 20C4.47717 20 0 15.5228 0 10C0 4.47717 4.47717 0 10 0C15.5228 0 20 4.47717 20 10C20 15.5228 15.5228 20 10 20ZM10.9375 11.6666C10.9375 11.8967 10.7509 12.0833 10.5208 12.0833H9.58335C9.35323 12.0833 9.16668 11.8967 9.16668 11.6666C9.16668 8.89812 11.5105 9.15904 11.5105 7.08333C11.5105 6.39296 10.7271 5.83333 9.9219 5.83333C9.11668 5.83333 8.32039 6.39296 8.32039 7.08333V7.08334C8.31759 7.32047 8.35421 7.55641 8.42872 7.78155C8.50441 7.99776 8.39049 8.2344 8.17427 8.31009C8.13016 8.32552 8.08378 8.3334 8.03706 8.33338H7.1908C7.0029 8.33385 6.83773 8.209 6.78693 8.02809C6.70387 7.72015 6.66346 7.40227 6.66681 7.08334C6.66681 5.47251 8.15918 4.16667 10.0001 4.16667C11.8412 4.16667 13.3334 5.47246 13.3334 7.08334C13.3333 9.75704 10.9375 9.65288 10.9375 11.6668V11.6666ZM10 13.3333C10.6904 13.3333 11.25 13.8929 11.25 14.5833C11.25 15.2737 10.6904 15.8333 10 15.8333C9.30966 15.8333 8.75001 15.2737 8.75001 14.5833C8.75001 13.893 9.30964 13.3335 9.99997 13.3333H10Z"></path></svg></div><div class="bottom-icon active" title="Toggle Full Screen Mode"><svg viewBox="0 0 28 20" fill="white"><path fill-rule="evenodd" clip-rule="evenodd" d="M27 20H24C23.4477 20 23 19.5522 23 19C23 18.4477 23.4477 18 24 18H26V16C26 15.4477 26.4477 15 27 15C27.5522 15 28 15.4477 28 16V19C28 19.5522 27.5522 20 27 20ZM27 4.99999C26.4477 4.99999 26 4.55227 26 4V2H24C23.4477 2 23 1.55228 23 1C23 0.447714 23.4477 0 24 0H27C27.5522 0 28 0.447714 28 1V4V3.99994C28 4.5522 27.5523 4.99991 27 4.99994V4.99999ZM5 1C5 1.55228 4.55229 2 4 2H2V4C2 4.55228 1.55229 4.99999 1 4.99999C0.447717 4.99999 1.15803e-06 4.55227 1.15803e-06 4V1C1.51759e-08 0.447714 0.447717 1.12397e-06 1 1.12397e-06H4C4.55229 -2.74474e-05 5.00001 0.447664 5.00004 0.999946L5 1ZM3.5 15.75V4.25C3.5 3.83578 3.83578 3.5 4.25 3.5H23.7499C24.1642 3.5 24.5 3.83578 24.5 4.25V15.75C24.5 16.1641 24.1642 16.5 23.7499 16.5H4.25C3.83578 16.4999 3.50002 16.1641 3.50005 15.75H3.5ZM1 15C1.55229 15 2 15.4477 2 16V18H4C4.55229 18 5 18.4477 5 19C5 19.5522 4.55229 20 4 20H1C0.447717 20 0 19.5522 0 19V16V15.9999C0 15.4477 0.447717 14.9999 1 14.9999C1.00004 14.9999 1.00007 14.9999 1.00009 14.9999L1 15Z"></path><defs><lineargradient id="legends-gradient" x1="9.99993" y1="20.572" x2="9.99993" y2="0.572034" gradientUnits="userSpaceOnUse"><stop stop-color="#943CFF"></stop><stop offset="0.5" stop-color="#DD45D3"></stop><stop offset="1" stop-color="#FD9D52"></stop></lineargradient></defs></svg><style>
+        .bottom-icon {
+          opacity: 0;
+          transition: all 250ms ease-in-out;
+          cursor: pointer;
+        }
+
+        .bottom-icon svg {
+          height: 18px;
+          width: auto;
+          dispaly: inline-block;
+          vertical-align: middle;
+        }
+
+        .bottom-icon.active, .bottom-icon:hover {
+          opacity: 1;
+        }
+
+        .bottom-icon svg {
+          transition: all 250ms ease-out;
+        }
+
+        .bottom-icon svg:hover {
+          opacity: 0.8;
+        }
+
+        @media(min-width: 768px) {
+          .bottom-icon svg {
+            height: 24px;
+            width: auto;
+          }
+        }
+      </style></div></div></div><div class="logo active"><a target="_blank" href="https://www.scale.ai/sensor-fusion-annotation" style="display: block;"><svg viewBox="0 0 62 20" fill="none" style="display: inline-block; vertical-align: middle;"><path fill-rule="evenodd" clip-rule="evenodd" d="M46.008 1.14v17.72c0 .63-.512 1.14-1.142 1.14a1.14 1.14 0 0 1-1.143-1.14V1.14c0-.63.512-1.14 1.143-1.14.63 0 1.142.51 1.142 1.14zM6.208 20c-1.983 0-4.003-.595-5.684-1.676a1.137 1.137 0 0 1-.342-1.575 1.144 1.144 0 0 1 1.579-.34c.763.49 2.356 1.313 4.447 1.313 1.95 0 3.31-.703 3.31-1.71 0-.983-.967-1.302-3.693-1.708-2.39-.356-5.664-.843-5.664-3.988 0-1.92 1.771-3.987 5.659-3.987 1.45 0 3.554.298 5.332 1.717.492.393.572 1.11.178 1.6a1.144 1.144 0 0 1-1.606.178C8.464 8.818 6.905 8.606 5.82 8.606c-2.216 0-3.375.86-3.375 1.71 0 1.002.974 1.324 3.718 1.733h.001c2.38.355 5.639.84 5.639 3.962C11.804 17.997 10.074 20 6.208 20zm19.222-2.442c.407-.482.343-1.2-.14-1.605a1.145 1.145 0 0 0-1.608.14 4.567 4.567 0 0 1-3.501 1.628c-2.52 0-4.57-2.044-4.57-4.556 0-2.513 2.05-4.557 4.57-4.557 1.353 0 2.628.593 3.5 1.629a1.143 1.143 0 0 0 1.61.139 1.136 1.136 0 0 0 .14-1.605 6.848 6.848 0 0 0-5.25-2.442c-3.78 0-6.854 3.066-6.854 6.836 0 3.77 3.074 6.835 6.854 6.835a6.85 6.85 0 0 0 5.25-2.442zM34.078 6.33c3.78 0 6.853 3.066 6.853 6.836v5.696c0 .629-.511 1.139-1.142 1.139a1.14 1.14 0 0 1-1.142-1.14v-5.695c0-2.513-2.05-4.557-4.57-4.557-2.519 0-4.569 2.044-4.569 4.557 0 2.512 2.05 4.556 4.57 4.556h1.269a1.14 1.14 0 0 1 0 2.279h-1.27c-3.78 0-6.853-3.066-6.853-6.835 0-3.77 3.074-6.836 6.854-6.836zm26.825 11.23c.407-.483.343-1.2-.14-1.606a1.145 1.145 0 0 0-1.609.14 4.566 4.566 0 0 1-3.5 1.628c-2.52 0-4.57-2.044-4.57-4.556 0-2.513 2.05-4.557 4.57-4.557 2.036 0 3.549 1.358 3.953 3.417h-5.222a1.14 1.14 0 0 0 0 2.279h6.473c.63 0 1.142-.51 1.142-1.14 0-1.834-.604-3.53-1.702-4.778-1.166-1.327-2.815-2.057-4.643-2.057-3.78 0-6.854 3.066-6.854 6.836 0 3.77 3.075 6.835 6.854 6.835 2.028 0 3.941-.89 5.248-2.442z" fill="#fff"></path></svg></a></div><div class="top-title active"><a target="_blank" href="https://lidar-now.scale.com/scene?title=Scene%20%231%22" class="title active">Scene #1"<style>
+          .title {
+            font-size: 18px;
+            color: white;
+            cursor: pointer;
+            transition: opacity 400ms ease-in-out;
+            text-decoration: none;
+          }
+        </style></a></div><div class="map-buttons active ui-layout-default"><div class="buttons-left"><div><button title="Move up" class="button-key"><kbd class="button-key-icon">q</kbd></button><button title="Move forward" class="button-key"><kbd class="button-key-icon">w</kbd></button><button title="Move down" class="button-key"><kbd class="button-key-icon">e</kbd></button></div><button title="Move left" class="button-key"><kbd class="button-key-icon">a</kbd></button><button title="Move back" class="button-key"><kbd class="button-key-icon">s</kbd></button><button title="Move right" class="button-key"><kbd class="button-key-icon">d</kbd></button></div><div class="buttons-right"><div><button title="Rotate up" class="button-key"><kbd class="button-key-icon">↑</kbd></button></div><button title="Rotate left" class="button-key"><kbd class="button-key-icon">←</kbd></button><button title="Rotate down" class="button-key"><kbd class="button-key-icon">↓</kbd></button><button title="Rotate right" class="button-key"><kbd class="button-key-icon">→</kbd></button></div><style>
+          .map-buttons {
+            opacity: 0;
+            transition: opacity 250ms ease-in-out;
+          }
+
+          .map-buttons.active, .map-buttons:hover {
+            opacity: 1;
+          }
+
+          .buttons-left, .buttons-right {
+            text-align: center;
+            position: absolute;
+            bottom: 50px;
+          }
+
+          .ui-layout-mktg .buttons-left,
+          .ui-layout-mktg .buttons-right {
+            right: 16px;
+          }
+
+          .ui-layout-default .buttons-left {
+            left: 16px;
+          }
+
+          .ui-layout-default .buttons-right {
+            right: 16px;
+          }
+
+          .buttons-right .button-key {
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 100;
+          }
+
+          .button-key {
+            background: white;
+            font-size: 11px;
+            line-height: 26px;
+            text-align: center;
+            text-transform: uppercase;
+            height: 24px;
+            width: 24px;
+            margin: 4px;
+            padding: 0;
+            border-radius: 6px;
+            border: 0;
+            box-shadow: rgba(0, 0, 0, 0.8) 0px 2px 4px;
+            cursor: pointer;
+            transition: all 250ms ease;
+            outline: none;
+          }
+
+          @media(min-width: 768px) {
+            .ui-layout-default .buttons-left,
+            .ui-layout-default .buttons-right {
+              bottom: 70px;
+            }
+            .ui-layout-mktg .buttons-left {
+              bottom: 142px;
+            }
+            .ui-layout-mktg .buttons-right {
+              bottom: 24px;
+            }
+            .buttons-right .button-key {
+              font-size: 20px;
+              line-height: 28px;
+            }
+            .button-key {
+              font-size: 14px;
+              line-height: 32px;
+              height: 32px;
+              width: 32px;
+            }
+          }
+
+          @media(min-width: 992px) {
+            .buttons-right .button-key {
+              line-height: 34px;
+            }
+            .button-key {
+              line-height: 36px;
+              height: 36px;
+              width: 36px;
+            }
+          }
+
+          .button-key:hover {
+            opacity: 0.8;
+          }
+
+          .button-key kbd {
+            font-family: Menlo, monospace !important;
+            height: 100%;
+            display: block;
+            speak: none;
+          }
+        </style></div><style>
+          .logo {
+            width: 60px;
+            position: absolute;
+            z-index: 2;
+            top: 20px;
+            left: 20px;
+            opacity: 0;
+            transition: opacity 250ms ease-in-out;
+            user-select: none;
+          }
+
+          @media(min-width: 768px) {
+            .logo {
+              width: 74px;
+            }
+          }
+
+          .logo.active, .logo:hover {
+            opacity: 1;
+          }
+
+          .logo.active:hover {
+            opacity: 0.8;
+          }
+
+          .top-title {
+            font-weight: bold;
+            line-height: 30px;
+            text-align: center;
+            position: absolute;
+            top: 20px;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            opacity: 0;
+            transition: opacity 250ms ease-in-out;
+            user-select: none;
+          }
+
+          @media(min-width: 768px) {
+            .top-title {
+              line-height: 36px;
+            }
+          }
+
+          .top-title.active {
+            opacity: 1;
+          }
+
+          .top-title.touch {
+            left: initial;
+            right: 20px;
+          }
+
+          .bottom-controls {
+            align-items: center;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            left: 20px;
+          }
+
+          @media(min-width: 768px) {
+            .bottom-controls.ui-layout-mktg {
+              display: none !important;
+            }
+          }
+
+          .bottom-actions {
+            width: 54px;
+            justify-content: space-between;
+          }
+
+          .bottom-actions.big {
+            width: 86px;
+          }
+
+          @media(min-width: 768px) {
+            .bottom-actions {
+              width: 78px;
+            }
+
+            .bottom-actions.big {
+              width: 124px;
+            }
+          }
+        </style><style>
+          html {
+            height: 100%;
+            overflow: hidden;
+            background: black;
+          }
+
+          html , body, #root, .router-root, .main-container {
+            display: flex;
+            flex: 1;
+            margin: 0;
+            padding: 0;
+          }
+
+          body {
+            overflow: hidden;
+            text-rendering: geometricPrecision;
+            -webkit-font-smoothing: antialiased;
+          }
+
+          .main-view {
+            opacity: 0;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            user-select: none;
+            animation: mainFade 1s ease-out forwards;
+          }
+
+          @keyframes mainFade {
+            from {
+              opacity: 0;
+            }
+            to {
+              opacity: 1;
+            }
+          }
+        </style></div></div></div><script src="./Lidar Viewer_files/main.c4617ff6.js.download"></script></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;limited&quot;,&quot;isActive&quot;:false,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
